@@ -21,7 +21,6 @@ RUN echo "deb http://deb.debian.org/debian sid main" > /etc/apt/sources.list.d/s
              git \
              gcc \
              golang \
-             ca-certificates \
              libc-dev && \
     apt-get autoremove --purge -y && \
     apt-get autoclean -y && \
